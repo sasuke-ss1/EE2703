@@ -1,0 +1,9 @@
+.circuit
+V n1 GND ac 1 0
+R1 n1 n2 4.5kOhm
+L1 n2 n3 80.96uH
+C n3 GND 2.485pF
+L2 n3 n4 80.96uH
+R2 n4 GND 4kOhm
+.end
+.ac V 1kHz
